@@ -114,7 +114,20 @@ var region_notes = {
 function setup() {
     let o1 = document.getElementById("license");
     let o2 = document.getElementById("visiting");
-    console.log("test");
+
+    let active1 = "";
+    let active2 = "";
+    let hashset = false;
+    if (window.location.hash) {
+        let re = /^#(..),(..)$/;
+        let m = re.exec(window.location.hash);
+        if (m) {
+            hashset = true;
+            active1 = m[1];
+            active2 = m[2];
+        }
+    }
+
     let keys = [];
     for (var k in countries) {
         keys.push(k);
@@ -123,22 +136,29 @@ function setup() {
     for (let n in keys) {
         let code = keys[n];
         let data = countries[code];
-        console.log(code);
         c1 = document.createElement("option");
         c2 = document.createElement("option");
         c1.innerText = `${code} - ${data["name"]}`;
         c2.innerText = `${code} - ${data["name"]}`;
         c1.value = code;
         c2.value = code;
+        c1.selected = active1 == code;
+        c2.selected = active2 == code;
         o1.appendChild(c1);
         o2.appendChild(c2);
     }
     o1.removeChild(o1.children[0]);
     o2.removeChild(o2.children[0]);
+    if (hashset) {
+        change();
+    }
 }
 function getCountry(id) {
     var sel = document.getElementById(id);
-    return countries[sel.options[sel.selectedIndex].value];
+    let code = sel.options[sel.selectedIndex].value;
+    let ret = countries[code];
+    ret["code"] = code;
+    return ret;
 }
 function addNote(o, note) {
     var n = document.createElement("li");
@@ -164,6 +184,7 @@ function change() {
         content.appendChild(notes);
         return;
     }
+    window.location.hash = `${lic.code},${vis.code}`;
 
     // Right to roam.
     if (vis["cept"] == true && lic["cept"] == true) {
