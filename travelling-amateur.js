@@ -7,6 +7,9 @@ var countries = {
         "bandplan": "https://www.ofcom.org.uk/__data/assets/pdf_file/0027/62991/amateur-terms.pdf",
         "society": "Radio Society of Great Britain (RSGB)",
         "regulator": "Ofcom",
+        "notes": [
+            "Private repeaters are forbidden, so if you can hear it, it should be open for you.",
+        ],
     },
     "PT": {
         "name": "Portugal",
@@ -59,6 +62,9 @@ var countries = {
         "prefix": "W#/XXXXX (depending on state). {ND,MN,SD,NE,IA,CO,KS,MO}=0, {ME,VT,NH,MA,RI,CT}=1, NY=2, {PA,MD}=3, {TN,KY,VA,NC,SC,GA,AL,FL}=4, {NM,TX,OK,AR,LA,MS}=5, CA=6, {WA,OR,ID,MT,WY,NV,UT,AZ}=7, AK=KL7/XXXXX, HI=KH/XXXXX",
         "regulator": "Federal Communications Commission (FCC)",
         "society": "American Amateur Radio League (ARRL)",
+        "notes": [
+            "Private repeaters are a thing, so don't assume that just because you can hear it, that you can join it.",
+        ],
     },
     "BR": {
         "name": "Brazil",
