@@ -65,6 +65,9 @@ var countries = {
         "notes": [
             "Private repeaters are a thing, so don't assume that just because you can hear it, that you can join it.",
         ],
+        "links": {
+            "Foreign licenses operating in the US": "http://www.arrl.org/foreign-licenses-operating-in-u-s",
+        },
     },
     "BR": {
         "name": "Brazil",
