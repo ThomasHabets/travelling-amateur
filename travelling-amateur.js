@@ -14,6 +14,18 @@ var countries = {
             "visitor info": "https://rsgb.org/main/operating/licensing-novs-visitors/operating-for-visitors/",
         },
     },
+    "FR": {
+        "name": "France",
+        "region": 1,
+        "cept": true,
+        "prefix": "F/XXXXX",
+        "links": {
+            "Info for visitors": "https://www.r-e-f.org/index.php?option=com_content&view=article&id=53&Itemid=340",
+        },
+        "notes": [
+            "Countries with reciprocal license agreements: Brésil Côte d’Ivoire Etats-Unis Japon Kenya",
+        ],
+    },
     "UK": { "alias": "GB" },
     "PT": {
         "name": "Portugal",
