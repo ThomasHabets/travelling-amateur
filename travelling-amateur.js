@@ -10,6 +10,9 @@ var countries = {
         "notes": [
             "Private repeaters are forbidden, so if you can hear it, it should be open for you.",
         ],
+        "links": {
+            "visitor info": "https://rsgb.org/main/operating/licensing-novs-visitors/operating-for-visitors/",
+        },
     },
     "PT": {
         "name": "Portugal",
