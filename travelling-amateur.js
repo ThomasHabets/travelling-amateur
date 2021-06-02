@@ -161,6 +161,11 @@ function setup() {
     for (let n in keys) {
         let code = keys[n];
         let data = countries[code];
+        if (data.alias !== undefined) {
+            let alias = data.alias;
+            data = countries[alias];
+            countries[code] = data;
+        }
         c1 = document.createElement("option");
         c2 = document.createElement("option");
         c1.innerText = `${code} - ${data["name"]}`;
