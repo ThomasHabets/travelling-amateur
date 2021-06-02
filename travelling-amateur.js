@@ -14,6 +14,7 @@ var countries = {
             "visitor info": "https://rsgb.org/main/operating/licensing-novs-visitors/operating-for-visitors/",
         },
     },
+    "UK": { "alias": "GB" },
     "PT": {
         "name": "Portugal",
         "region": 1,
