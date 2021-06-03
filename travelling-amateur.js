@@ -12,6 +12,7 @@ var countries = {
         ],
         "links": {
             "visitor info": "https://rsgb.org/main/operating/licensing-novs-visitors/operating-for-visitors/",
+            "repeater database": "https://ukrepeater.net/",
         },
     },
     "FR": {
