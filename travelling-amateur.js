@@ -28,6 +28,12 @@ var countries = {
         ],
     },
     "UK": { "alias": "GB" },
+    "PL": {
+        "name": "Poland",
+        "region": 1,
+        "cept": true,
+        "society": "pzk.org.pl",
+    },
     "PT": {
         "name": "Portugal",
         "region": 1,
