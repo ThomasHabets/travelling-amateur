@@ -297,6 +297,10 @@ function change() {
         }
     }
 
+    if (lic.code === "US" && vis.code === "CA") {
+	addNote(notes, `US Technician and General class licenses are allowed to operate in Canada`);
+    }
+
     // General links.
     let ls = vis["links"];
     if (ls != undefined) {
