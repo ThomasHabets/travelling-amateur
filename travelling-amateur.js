@@ -27,6 +27,23 @@ var countries = {
             "Countries with reciprocal license agreements: Brésil Côte d’Ivoire Etats-Unis Japon Kenya",
         ],
     },
+    "NZ": {
+	"name": "New Zealand",
+	"region": 3,
+	"cept": true,
+	"prefix": "ZL/XXXXX",
+	"bandplan": "https://gazette.govt.nz/notice/id/2017-go3567",
+	"regulator": "RSM",
+        "encryption": false,
+	"links": {
+		"Info for visitors": "https://www.rsm.govt.nz/licensing/frequencies-for-anyone/amateur-radio-operators/visiting-amateur-operators/"
+	},
+	"notes": [
+		"Persons visiting New Zealand who hold a current amateur certificate of competency, authorisation or licence issued by another administration, may operate an amateur station in New Zealand for a period not exceeding 90 days, provided the certificate, authorisation or licence meets the requirements of Recommendation ITU-R M.1544 or CEPT T/R 61-01 or CEPT T/R 61-02 and is produced at the request of the chief executive.",
+		"The visiting overseas operator must use the national callsign allocated by the other administration to the operator, in conjunction with the prefix or suffix “ZL”, except where subsection (3) applies, which is to be separated from the national callsign by the character “/” (telegraphy), or the word “stroke” (telephony).",
+                "The visiting overseas operator may use the prefix or suffix: ZL7 when visiting the Chatham Islands,  ZL8 when visiting the Kermadec Islands, ZL9 when visiting the Sub-Antarctic Islands.",
+	],
+    },
     "UK": { "alias": "GB" },
     "PL": {
         "name": "Poland",
