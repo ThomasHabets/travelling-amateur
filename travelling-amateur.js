@@ -20,6 +20,7 @@ var countries = {
         "region": 1,
         "cept": true,
         "prefix": "F/XXXXX",
+	"society": "Reseau des Emetteurs Francais (REF)",
         "links": {
             "Info for visitors": "https://www.r-e-f.org/index.php?option=com_content&view=article&id=53&Itemid=340",
         },
@@ -35,6 +36,7 @@ var countries = {
 	"bandplan": "https://gazette.govt.nz/notice/id/2017-go3567",
 	"regulator": "RSM",
         "encryption": false,
+	"society": "New Zealand Association of Radio Transmitters (NZART)",
 	"links": {
 		"Info for visitors": "https://www.rsm.govt.nz/licensing/frequencies-for-anyone/amateur-radio-operators/visiting-amateur-operators/"
 	},
@@ -58,6 +60,7 @@ var countries = {
         "prefix": "CT7 (Portugal), CT8 (Azores), CT9 (Madeira)",
         "power": 1500,
         "bandplan": "http://www.arrlx.pt/wp-content/uploads/2018/09/QNAF-Anexo6-1.pdf",
+	"society": "Rede dos Emissores Portugueses (REP)",
         "notes": [
             "No access to 2.3-2.4GHz without special authorization.",
             "Only 300W on 70cm/2m"
@@ -75,6 +78,7 @@ var countries = {
     },
     "MZ": {
         "name": "Mozambique",
+	"society": "Liga de Radioamadores de Mocambique (LRM)",
         "region": 1,
     },
     "MG": {
@@ -89,6 +93,7 @@ var countries = {
         "swearing": true,
         "encryption": true,
         "regulator": "Post och telestyrelsen (PTS)",
+	"society": " Foreningen Sveriges Sandareamatorer (SSA)",
         "notes": [
             "license schedule: PTSFS 2015:4 (also appendix F (H?) in 'KonCEPT')",
             "encryption still requires plaintext beacon",
@@ -129,6 +134,7 @@ var countries = {
         "name": "Switzerland",
         "region": 1,
         "cept": true,
+	"society": "Union Schweizerischer Kurzwellen-Amateure (USKA)",
         "prefix": "HB9/XXXXX",
     },
     "CA": {
@@ -136,6 +142,7 @@ var countries = {
         "region": 2,
         "iarp": true,
         "cept": true,
+	"society": "Radio Amateurs of Canada (RAC)",
         "links": {
             "General amateur radio info": "http://www.ic.gc.ca/eic/site/025.nsf/eng/home",
         },
@@ -150,6 +157,7 @@ var countries = {
             "Guidance for visitors": "https://www.acma.gov.au/licences/overseas-amateur-visiting-australia-class-licence",
         },
         "bandplan": "http://www.wia.org.au/members/bandplans/data/documents/Australian%20Band%20Plans%20191004.pdf",
+	"society": "Wireless Institute of Australia (WIA)",
         "prefix": "VK/XXXXX",
     },
 };
