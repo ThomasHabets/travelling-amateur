@@ -33,12 +33,13 @@ var countries = {
 	"region": 3,
 	"cept": true,
 	"prefix": "ZL/XXXXX",
-	"bandplan": "https://gazette.govt.nz/notice/id/2017-go3567",
+	"bandplan": "https://gazette.govt.nz/notice/id/2023-go5698",
 	"regulator": "RSM",
         "encryption": false,
 	"society": "New Zealand Association of Radio Transmitters (NZART)",
 	"links": {
-		"Info for visitors": "https://www.rsm.govt.nz/licensing/frequencies-for-anyone/amateur-radio-operators/visiting-amateur-operators/"
+		"Info for visitors": "https://www.rsm.govt.nz/licensing/frequencies-for-anyone/amateur-radio-operators/visiting-amateur-operators/",
+		"Detailed Bandplan": "https://www.nzart.org.nz/info/band-plan/",
 	},
 	"notes": [
 		"Persons visiting New Zealand who hold a current amateur certificate of competency, authorisation or licence issued by another administration, may operate an amateur station in New Zealand for a period not exceeding 90 days, provided the certificate, authorisation or licence meets the requirements of Recommendation ITU-R M.1544 or CEPT T/R 61-01 or CEPT T/R 61-02 and is produced at the request of the chief executive.",
