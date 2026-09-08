@@ -265,7 +265,7 @@ function change() {
         addNote(notes, `Same region (${lic.region}) as your license, so most of the bandplan should be similar.`);
     } else {
         addNote(notes, `Your license is region ${lic.region}, while you are visiting region ${vis.region}.`);
-        addNote(notes, `Region ${vis.region} notes: ${region_notes[vis.region]}`);
+        addNote(notes, `General region ${vis.region} notes: ${region_notes[vis.region]}`);
     }
 
     let t = undefined;
