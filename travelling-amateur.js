@@ -130,6 +130,7 @@ var countries = {
         "notes": [
             "70cm band is 430-440MHz",
             "CEPT deal in progress, but not yet signed(?) as of 2026-09-08",
+			"Reciprocal countries allowing operation without getting pre authorization (COER): Argentina, Germany, Bolivia, Canada, Chile, Colombia, Costa Rica, Denmark, Dominica, Spain, United States, France, Great Britain, Haiti, Panama, Paraguay, Peru, Portugal, Dominican Republic, Sweden, Switzerland, Suriname, Uruguay and Venezuela.",
         ],
         "bandplan": "https://informacoes.anatel.gov.br/legislacao/resolucoes/2026/2157-resolucao-789",
     },
