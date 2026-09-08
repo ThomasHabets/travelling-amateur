@@ -257,7 +257,7 @@ function change() {
     } else if (vis["iarp"] == true && lic["iarp"] == true) {
         addNote(notes, `Both your license and visiting country is in IARP, so you should be able to operate without prior authorization if you have the most advanced license`);
     } else {
-        addNote(notes, `You probably <b>CANNOT</b> operate in this country without prior authorization from its regulatory body`);
+        addNote(notes, `Neither CEPT nor IARP allows visitor operation for this combination. Unless other notes say otherwise, you probably <b>CANNOT</b> operate in this country without prior authorization from its regulatory body`);
     }
 
     // Region info.
