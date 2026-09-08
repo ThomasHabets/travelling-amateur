@@ -123,13 +123,15 @@ var countries = {
         "iarp": true,
         "prefix": "P##/XXXXX (depending on region). Rio de Janeiro=PY1",
         "links": {
-            "Detailed bandplan": "https://sei.anatel.gov.br/sei/modulos/pesquisa/md_pesq_documento_consulta_externa.php?eEP-wqk1skrd8hSlk5Z3rN4EVg9uLJqrLYJw_9INcO5ZbUbc1JBxftaaUBDDO81i7FFyVaw-TSvaagGEDIeFrqiLxVWGbMd8yCp9oLXowFweGssBMBhyzSo8PEQJfICc",
+            "Detailed bandplan (outdated?)": "https://sei.anatel.gov.br/sei/modulos/pesquisa/md_pesq_documento_consulta_externa.php?eEP-wqk1skrd8hSlk5Z3rN4EVg9uLJqrLYJw_9INcO5ZbUbc1JBxftaaUBDDO81i7FFyVaw-TSvaagGEDIeFrqiLxVWGbMd8yCp9oLXowFweGssBMBhyzSo8PEQJfICc",
+			"Act where section 8 describes foreign operators": "https://informacoes.anatel.gov.br/legislacao/component/content/article/177-atos-de-requisitos-operacionais-de-outorga-e-licenciamento/2148-ato-3448-26",
+			"Handbook where section 6 refers to foreign operators": "https://web.archive.org/web/20260622201538/https://www.gov.br/anatel/pt-br/assuntos/noticias/anatel-simplifica-regras-e-fortalece-o-radioamadorismo-no-brasil/cartilha_radioamador.pdf/%40%40display-file/file",
         },
         "notes": [
             "70cm band is 430-440MHz",
-            "CEPT deal in progress, but not yet signed as of 2019-02-01",
+            "CEPT deal in progress, but not yet signed(?) as of 2026-09-08",
         ],
-        "bandplan": "https://www.anatel.gov.br/legislacao/resolucoes/2018/1157-resolucao-697",
+        "bandplan": "https://informacoes.anatel.gov.br/legislacao/resolucoes/2026/2157-resolucao-789",
     },
     "CH": {
         "name": "Switzerland",
